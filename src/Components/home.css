@@ -1,0 +1,85 @@
+.home-section{
+    display: flex;
+    margin-top: 15% !important;
+    align-items: center;
+}
+.frist-left{
+    color: var(--navbar-text-color);
+}
+.frist-left h2{
+    font-weight: bold;
+    font-size: 2.99rem;
+
+}
+
+.frist-left button,
+.shop-now{
+    background-color: var(--second-color);
+    font-size: 1rem;
+    color: azure;
+    padding: auto 5%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+.chevro{
+    margin-left: 10%;
+    transition: all ease 0.5s;
+    display: inline-block;
+
+
+}
+.frist-left button:hover,
+.shop-now:hover{
+    background-color: rgba(45, 70, 42, 0.6);
+}
+.frist-left button:hover .chevro
+.shop-now:hover .chevro{
+   transform: translateX(15%);
+}
+
+.frist-right{
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-img{
+    max-width: 80%;
+}
+.last-frist{
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-us{
+    text-transform: capitalize;
+    transform: rotate(90deg) ;
+    font-size: 0.9rem;
+    display: flex;
+
+}
+.line{
+    border: 1px solid;
+    transform: rotate(90deg);
+    display: flex;
+    margin-top: 100%;
+}
+
+.apps{
+    display: block;
+    margin-top: 80%;
+    padding-left: 25px;
+}
+.apps li{
+    color: #6c757d;
+}
+.apps li:hover{
+    margin-left: 2%;
+}

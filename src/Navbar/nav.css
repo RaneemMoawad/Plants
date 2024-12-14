@@ -1,0 +1,148 @@
+.bg-darkk{
+    background-color: var(--main-color) !important; /* اللون الذي تريده */
+    color: #ffffff !important; /* لون النصوص */
+}
+.svg-inline--fa.fa-moon.sun{
+    color: var(--main-color);
+    transition: all ease 0.3s;
+}
+
+.svg-inline--fa.fa-moon.sun:hover{
+    color: green !important;
+}
+
+/* Default Light Mode */
+body[data-theme="light"] {
+    --second-color: #28a745; /* لون إضافي */
+    --navbar-bg-color: #ffffff; /* لون خلفية النافبار */
+    --navbar-text-color: var(--second-color) !important; /* لون النصوص داخل النافبار */
+    --body-bg-color: #ffffff !important; /* لون خلفية البادي */
+    --body-text-color: #000000 ; /* لون النصوص داخل البادي */
+    --ww-color: var(--second-color) !important;
+}
+
+/* Dark Mode */
+body[data-theme="dark"] {
+    --second-color: #28a745; /* لون إضافي */
+    --navbar-bg-color: var(--main-color); /* لون خلفية النافبار */
+    --navbar-text-color: #ffffff !important; /* لون النصوص داخل النافبار */
+    --body-bg-color: var(--main-color) !important; /* لون خلفية البادي */
+    --body-text-color: #ffffff; /* لون النصوص داخل البادي */
+    --ww-color: azure !important;
+
+}
+
+/* General Styles */
+body {
+    background-color: var(--body-bg-color) ;
+    color: var(--body-text-color) ;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar{
+    background-color: transparent !important;
+}
+/* الخلفية الشفافة */
+.navbar.transparent {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* الخلفية البيضاء */
+  .navbar.scrolled {
+    background-color: rgb(70, 88, 70) !important ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.leaf {
+    color: var(--navbar-text-color);
+}
+
+.logo-txt {
+    color: var(--navbar-text-color) !important;
+    font-size: 1rem !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+}
+
+.logo-txt:hover {
+    color: var(--second-color) !important;
+}
+
+.elements-nav {
+    color: gray !important;
+    font-size: 0.9rem !important;
+    transition: all ease 0.5s !important;
+    position: relative;
+}
+
+.elements-nav:hover,
+.elements-nav:focus {
+    color: var(--second-color) !important;
+}
+
+.elements-nav::after {
+    content: "";
+    border-bottom: 3px solid var(--second-color);
+    width: 0;
+    height: 1px;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    margin-left: 0px;  
+    transition: all ease 0.3s;
+    display: block;
+}
+
+.elements-nav:hover::after,
+.elements-nav:focus::after {
+    width: 40%;
+}
+
+.me-auto {
+    margin-left: 25%;
+}
+
+.navbar-collapse {
+    text-align: center !important;
+}
+
+.sun {
+    color: var(--navbar-text-color);
+    background-color: transparent !important;
+    transition: all ease 0.5s;
+}
+
+.sun:hover {
+    color: var(--second-color);
+}
+
+.dark-btn {
+    background-color: transparent !important;
+    border: 1px solid var(--navbar-text-color);
+    display: flex;
+    justify-content: right;
+    margin-right: 0;
+    margin-left: 35%;
+    color: white !important;
+    border: none !important;
+}
+
+.dark-btn:hover {
+    background-color: var(--navbar-text-color);
+    color: var(--navbar-bg-color);
+}
+
+.content-nav.container {
+    margin: auto;
+}
+
+.me-auto.navbar-nav {
+    width: 500px;
+}
+

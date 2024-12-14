@@ -1,0 +1,60 @@
+.contact-section{
+    padding-top: 15%;
+}
+
+.last-left h2{
+    color: var(--navbar-text-color);
+    font-weight: bold;
+}
+.call-us{
+    margin-top: 10%;
+}
+.call-us span{
+    color: gray;
+}
+
+.call-us p{
+    color: var(--navbar-text-color);
+    margin-top: 3%;
+}
+
+.phone-icon, .mail-icon{
+    margin-right: 3%;
+}
+
+.write span{
+    color: gray;
+}
+
+.write p{
+    color: var(--navbar-text-color);
+    margin-top: 3%;
+    
+}
+
+.last-right{
+    width: 100%;
+}
+
+.form-control.form-email,
+.message-txt{
+    border-bottom: 1px solid gray !important;
+    margin-bottom: 5%;
+    border-radius: 0;
+}
+
+.form-control.form-email:focus,
+.message-txt:focus{
+    box-shadow: none;
+}
+
+.sub{
+    background-color: var(--second-color) !important;
+    border: none !important;
+    width: 50%;
+    transition: all ease-in-out 0.5s !important;
+}
+
+.sub:hover{
+    background-color: darkolivegreen !important;
+}

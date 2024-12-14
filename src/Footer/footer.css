@@ -1,0 +1,100 @@
+.footer-section{
+    display: flex;
+    
+}
+
+.footer-desc{
+    margin-top: 10%;
+    font-weight: bold;
+    color: var(--navbar-text-color);
+}
+.one-footer{
+    width: 100%;
+    display: block;
+}
+
+
+.group{
+    width: 100%;
+    display: flex;
+    background-color: rgba(91, 90, 90,0.2);
+    padding: 5%;
+    border-radius: 10px;
+    margin-top: 10%;
+
+}
+
+.last-subscribe{
+    border: none !important;
+    background-color: var(--second-color) !important;
+}
+
+.form-control{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+    
+}
+
+
+.form-control::placeholder{
+    color: gray !important;
+}
+
+.email-txt:focus {
+    box-shadow: none !important; /* إزالة الظل الافتراضي إذا كان موجودًا */
+    caret-color: var(--navbar-text-color);
+  }
+
+.two-footer h6,
+.three-footer h6,
+.four-footer p{
+    color: var(--navbar-text-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.footer-ul{
+    padding-left: 0;
+    margin-top: 25%;
+}
+
+.footer-ul li{
+    color: gray;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.apps-icons{
+    margin-top: 10%;
+}
+
+.brand{
+    margin-left: 10%;
+    font-size: 1.2rem;
+    color: gray;
+}
+.brand:hover{
+    color: azure;
+}
+.cards-ul{
+    display: flex;
+    padding-left: 0;
+    width: 100%;
+}
+.cards-ul a{
+    margin-left: 5%;
+}
+.card1{
+
+    max-width: 2rem;
+}
+.raneem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,88 @@
+.all{
+
+    padding-top: 15%;
+}
+
+.faqs-section{
+    background-color: var(--second-color);
+    padding: 10% auto;
+    width: 100%;
+    height: 550px;
+}
+
+
+
+.faqs-title{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    font-size: 1.7rem;
+    font-weight: bold;
+    height: auto;
+    padding: 5%;
+}
+
+.questions{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: auto !important;
+}
+
+.question-title {
+    margin-bottom: 10%;
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: left !important;
+}
+.plus{
+   margin-right: 5px;
+   margin-left: 5px;
+   transition: all ease 0.5s;
+}
+.questions h6{
+    height: 2rem;
+    width: 100%;
+    position: relative;
+    background-color: var(--main-color);
+    border-radius: 2px;
+    color: azure;
+    text-align: left;
+    justify-content: center;
+    padding: 5px;
+    transition: all ease 0.5s;
+
+}
+.questions h6:hover{
+    cursor: pointer;
+}
+
+.questions h6:hover .plus{
+    transform: rotate(90deg);
+
+}
+
+.questions h6:focus .plus{
+    transform: rotate(90deg) !important;
+}
+.questions h6:focus-within{
+    background-color: darkolivegreen !important;
+}
+
+.questions h6:focus {
+    background-color: var(--main-color) !important;
+}
+  
+.answer{
+    background-color: darkolivegreen;
+    margin-top: -10%;
+    padding: 5%;
+    color: azure;
+}
+
+
+

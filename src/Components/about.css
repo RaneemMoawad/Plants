@@ -1,0 +1,47 @@
+.about-section{
+    display: flex;
+}
+.about-img{
+    width: 100%;
+}
+
+.sec-right h3{
+    color: var(--navbar-text-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.sec-right p{
+    color: rgb(107, 105, 105);
+    font-size: 0.9rem;
+}
+.sec-right ul{
+    margin-top: 5%;
+    padding-left: 0;
+}
+
+.sec-right ul li{
+
+    color: rgb(107, 105, 105);
+    font-size: 0.8rem;
+}
+.check{
+    background-color: var(--second-color);
+    font-size: 0.6rem;
+    padding: 4px;
+    margin-right: 3%;
+    color: azure;
+    border-radius: 4px;
+}
+
+.shop-now{
+    background-color: var(--second-color) !important;
+    color: azure !important;
+    font-weight: bold !important;
+    transition: all ease 0.5s !important;
+}
+.shop-now:hover{
+    background-color: rgba(45, 70, 42, 0.6) !important;
+}
+.shop-now:hover .chevro{
+    transform: translateX(15%);
+ }

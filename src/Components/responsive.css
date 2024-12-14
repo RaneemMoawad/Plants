@@ -1,0 +1,270 @@
+/* موبايل صغير */
+@media (max-width: 480px) {
+  .block {
+    animation: none;
+  }
+  .container {
+    width: 95% !important;
+  }
+
+  .frist-left h2 {
+    font-size: 1.9rem !important;
+    margin-top: 15%;
+  }
+  .frist-right {
+    display: block !important;
+  }
+  .last-frist {
+    transform: rotate(270deg) !important;
+    display: flex;
+    font-size: 1rem;
+    width: 100%;
+    margin-left: 10%;
+  }
+  .follow-us {
+    flex: 1;
+  }
+  .line,
+  .apps,
+  .follow-us {
+    display: none !important;
+  }
+
+  .frist-row-plants,
+  .sec-row-plants {
+    margin-right: 20%;
+  }
+  .img-desc h6 {
+    font-size: 0.9rem !important;
+    height: 30px;
+  }
+  .price-buy {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .price-buy span {
+    font-size: 0.6rem !important;
+    margin-left: -20%;
+  }
+
+  .price-buy .shopping-btn {
+    font-size: 0.5rem !important;
+    border: 3px solid !important;
+  }
+
+  .faqs-section {
+    margin-left: 4%;
+  }
+  .footer-ul {
+    margin-top: 0 !important;
+  }
+  .apps-icons {
+    margin-left: -10% !important;
+  }
+}
+
+/* موبايل متوسط / كبير */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 80% !important;
+  }
+
+  .frist-left h2 {
+    font-size: 2.5rem !important;
+    margin-top: 15%;
+  }
+  .frist-right {
+    margin-top: 40px !important;
+    width: 100%;
+    display: flex;
+    justify-content: right !important;
+  }
+  .home-img {
+    max-width: 60% !important;
+  }
+  /* .about-section{
+    display: flex !important;
+} */
+  .about-img {
+    max-width: 60%;
+  }
+  .sec-right {
+    margin-top: 5% !important;
+  }
+
+  .frist-row-plants,
+  .sec-row-plants {
+    margin-right: 20%;
+  }
+  .img-desc h6 {
+    font-size: 0.9rem !important;
+    height: 30px;
+  }
+  .price-buy {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .price-buy span {
+    font-size: 0.6rem !important;
+    margin-left: -20%;
+  }
+
+  .price-buy .shopping-btn {
+    font-size: 0.5rem !important;
+  }
+
+  .faqs-section {
+    height: 800px !important;
+  }
+  .faqs-title {
+    margin-top: 20% !important;
+  }
+  .questions {
+    padding-top: 5%;
+  }
+  .footer-ul {
+    margin-top: 0 !important;
+  }
+  .apps-icons {
+    margin-left: -10% !important;
+  }
+}
+
+/* تابلت */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    width: 80% !important;
+  }
+
+  .frist-left h2 {
+    font-size: 4rem !important;
+  }
+  .frist-right {
+    margin-top: 40px !important;
+    width: 100%;
+    display: flex;
+    justify-content: right !important;
+  }
+  .home-img {
+    max-width: 60% !important;
+  }
+  .about-section {
+    display: flex !important;
+  }
+  .sec-left {
+    flex: 1;
+  }
+  .about-img {
+    max-width: 100%;
+  }
+  .sec-right {
+    flex: 1;
+  }
+
+  .frist-row-plants,
+  .sec-row-plants {
+    margin-right: 15%;
+  }
+  .img-desc h6 {
+    font-size: 1rem !important;
+    height: 30px;
+  }
+  .price-buy {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .price-buy span {
+    font-size: 0.9rem !important;
+  }
+
+  .price-buy .shopping-btn {
+    font-size: 0.6rem !important;
+  }
+
+  .contact-section {
+    display: flex !important;
+  }
+  .last-left {
+    flex: 1;
+  }
+  .last-right {
+    flex: 1;
+  }
+  .faqs-title {
+    margin-top: 20% !important;
+  }
+  .questions {
+    padding-top: 5%;
+  }
+  .footer-section {
+    display: flex !important;
+  }
+  .one-footer {
+    flex: 1 !important;
+  }
+  .tow-footer {
+    flex: 1 !important;
+  }
+  .three-footer {
+    flex: 1;
+  }
+  .footer-ul {
+    margin-top: 0 !important;
+  }
+  .apps-icons {
+    margin: 5% 0 !important;
+  }
+  .brand {
+    margin-left: 10% !important;
+  }
+  .two-footer h6,
+  .three-footer h6,
+  .four-footer p {
+    font-size: 0.9rem !important;
+  }
+}
+
+/* لابتوب */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    width: 80% !important;
+  }
+
+  h6.question-title {
+    max-width: 1000px !important;
+    margin-bottom: 5%;
+  }
+  .questions {
+    width: 100%;
+  }
+  .faqs-section {
+    height: 600px !important;
+  }
+  .block {
+    animation-range: entry 0 cover 30%;
+  }
+  .contact-section{
+    margin-top: -10% !important;
+  }
+}
+
+/* شاشات كبيرة */
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+ 
+  .frist-row-plants,
+  .sec-row-plants {
+    margin-left: 5%;
+  }
+
+  h6.question-title {
+    max-width: 1000px !important;
+    margin-bottom: 5%;
+  }
+
+  .block {
+    animation-range: entry 0 cover 30%;
+  }
+}
