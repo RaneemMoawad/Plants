@@ -1,6 +1,6 @@
 {
   "name": "plants",
-  "homepage": "https://raneemmoawad.github.io/plants",
+"homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
