@@ -7,7 +7,7 @@ import About from './Components/about';
 import Products from './Components/products';
 import Faqs from './Components/faqs';
 import Contact from './Components/contact';
-import 'aos/dist/aos.css';  
+import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 const App = () => {
@@ -18,14 +18,17 @@ const App = () => {
     });
   }, []);
 
+  // إعداد التوجيهات
   const routes = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
-        <Route index  element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/products' element={<Products />} />
-        <Route path='/faqs' element={<Faqs />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route index element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/faqs" element={<Faqs />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* جعل المسار /plants يعرض الصفحة الرئيسية */}
+        <Route path="/plants" element={<Home />} />
       </Route>
     )
   );
